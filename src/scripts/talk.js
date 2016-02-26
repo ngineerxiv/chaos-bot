@@ -1,3 +1,10 @@
+// Description:
+//   新規参加者用挨拶スクリプト
+// Commands:
+//   hubot start talk {first message} - start to talk with ray ex) hubot start talk ほげ
+//   hubot stop talk - stop talking with ray
+//
+
 var request = require('request');
 
 var getTimeDiff = function(oldMsec) {
